@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="modo">
+		<item>@string/vs_humano</item>
+		<item>@string/vs_computador</item>
+	</array>
+</resources>

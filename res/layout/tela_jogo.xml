@@ -1,0 +1,283 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F4F4F"
+    android:gravity="center"
+    android:screenOrientation="portrait"
+    android:orientation="vertical"
+    android:id="@+id/activityTelaJogo"
+    
+    >
+    
+    <RelativeLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        
+        android:orientation="horizontal" >
+        
+         <Button
+            android:id="@+id/btn_back"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+            android:onClick="clickBack" 
+    		android:drawableStart="@drawable/ic_btn_back"
+    		android:background="@android:color/transparent" />
+        <Button
+            android:id="@+id/btn_restart"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+            android:onClick="clickRestart" 
+    		android:drawableStart="@drawable/ic_btn_restart"
+    		android:background="@android:color/transparent"  />
+        
+         
+        <Button
+            android:id="@+id/btn_info"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="43dp"
+            android:layout_height="40dp"  		
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"	        
+            android:onClick="clickInfo" 
+    		android:drawableStart="@drawable/ic_btn_info"
+    		android:background="@android:color/transparent"
+             />
+        
+    </RelativeLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/quadrado1" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado1"  />
+
+        <Button
+            android:id="@+id/quadrado2" 
+            android:layout_width="60dp"
+            android:layout_height="60dp" 
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado2" />
+
+        <Button
+            android:id="@+id/quadrado3" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado3" />
+
+        <Button
+            android:id="@+id/quadrado4" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/quadrado5" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado5" />
+
+        <Button
+            android:id="@+id/quadrado6" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado6" />
+
+        <Button
+            android:id="@+id/quadrado7" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado7" />
+
+        <Button
+            android:id="@+id/quadrado8" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/quadrado9" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado9" />
+
+        <Button
+            android:id="@+id/quadrado10" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado10" />
+
+        <Button
+            android:id="@+id/quadrado11" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado11" />
+
+        <Button
+            android:id="@+id/quadrado12" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado12" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/quadrado13" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado13" />
+
+        <Button
+            android:id="@+id/quadrado14" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado14" />
+
+        <Button
+            android:id="@+id/quadrado15" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado15" />
+
+        <Button
+            android:id="@+id/quadrado16" 
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:onClick="clickQuadrado" 
+            android:tag="quadrado16" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical" >
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="16dp"
+	            android:text="Jogador    O"
+	            android:textColor="#FFFAFA"
+	            android:textSize="16sp"
+	            android:textStyle="bold" />
+	
+	        <TextView
+            	android:id="@+id/label_jogador1" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="14dp"
+	            android:tag="labelJogador1"
+	            android:text="#3 - "
+	            android:textColor="#FFFAFA"
+	            android:textSize="14sp"
+	            android:textStyle="bold" />	
+		
+		</LinearLayout>
+		
+		<LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical" >
+	    </LinearLayout>
+		
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical" >
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="16dp"
+	            android:text="Jogador    X"
+	            android:textColor="#FFFAFA"
+	            android:textSize="16sp"
+	            android:textStyle="bold" />
+	
+	        <TextView
+            	android:id="@+id/label_jogador2" 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginBottom="14dp"
+	            android:tag="labelJogador2"
+	            android:text="#3 - "
+	            android:textColor="#FFFAFA"
+	            android:textSize="14sp"
+	            android:textStyle="bold" />
+        
+		
+		
+		</LinearLayout>
+        
+    </LinearLayout>
+
+</LinearLayout>

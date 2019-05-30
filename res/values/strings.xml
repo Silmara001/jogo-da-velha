@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JogoDaVelha</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnJogar_name">Jogar</string>
+    <string name="btnAbout_name">About</string>
+    <string name="btnSair_name">Sair</string>
+    <string name="about_text">		\
+		Regras do Jogo da Velha 4x4
+		
+		- O tabuleiro é uma matriz de quatro linhas por quatro colunas.
+		
+		- Um jogador joga com o círculo ( O ) e outro com o xis ( X ).
+		
+		- Os jogadores jogam alternadamente, selecionando uma posição que esteja vazia.
+		
+		- O objetivo do jogo é conseguir fazer uma maior quantidade de sequência de três (círculo ou xis) na horizontal, vertical ou diagonal , que o seu oponente e ao mesmo tempo, quando possível, impedir o adversário de ganhar na próxima jogada.
+		
+		- Caso, um jogador faça uma sequência de quatro (círculo ou xis) na horizontal, vertical ou diagonal , ele ganha a partida, independentemente de ter feito uma menor quantidade de sequência de três que seu oponente.</string>
+    <string name="about_title">About Android Jogo da Velha</string>
+    <string name="title_activity_tela_jogo">TelaJogo</string>
+    
+    
+    <string name="btnBackText">Voltar</string>
+    <string name="btnRestartText">Restart</string>
+    <string name="btnAboutText">Sobre</string>
+    
+    
+    <string name="vs_humano">vs Humano</string>
+    <string name="vs_computador">vs Computador</string>
+	<string name="modo_title">Modo</string>
+    
+    
+    <string name="hello_world">Hello world!</string>
+
+</resources>
